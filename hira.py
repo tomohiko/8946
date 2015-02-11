@@ -5,7 +5,6 @@ start =  ord(u'あ')
 end =  ord(u'ん')
 
 hira = []
-print "Create hiragana"
 for i in range(start, end+1, 1):
         hira.append(unichr(i).encode('utf-8'))
 
